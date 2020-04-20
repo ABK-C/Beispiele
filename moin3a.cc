@@ -4,13 +4,9 @@
 double expx(double x) {
     double res = 1;
     double summand = 1;
-    for(int n = 1 ; n < 100 ; n++) {
-        if(n > 3) {
-            continue;
-        } else {
-            summand *= x / n;
-            res += summand;
-        }
+    for(int n = 1 ; n < 10 ; n++) {
+        summand *= x / n;
+        res += summand;
     }
     return res;
 }
