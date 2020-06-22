@@ -1,15 +1,9 @@
 #include <iostream>
+#include "Bruch.hh"
 
-int main()
-{
-  //Bruch a und Bruch b einlesen
-  int Azaehler, Anenner;
-  std::cin >> Azaehler >> Anenner;
-  int Bzaehler, Bnenner;
-  std::cin >> Bzaehler >> Bnenner;
-  //Bruch c = a + b berechnen
-  int Czaehler, Cnenner;
-  //?
-  //Bruch c ausgeben
-  std::cout << Czaehler << "/" <<  Cnenner << '\n';;
+int main() {
+  Bruch a, b;
+  std::cin >> a >> b;
+  Bruch c = a + b; 
+  std::cout << c << '\n';
 }

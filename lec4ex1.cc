@@ -1,6 +1,6 @@
 #include <iostream>
 
-int f(int a, int &b, const int c, const int &d) {
+int f(int a, int &b, int c, int &d) {
   std::cout << a << " " << b << " " << c << " " << d << std::endl;
   ++a;
   ++b;
